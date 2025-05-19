@@ -5,7 +5,7 @@ class Student:
     score = 0
     mood = ""
 
-    def __init__(self, name, age, gender):
+    def __init__(self, name, gender, age = 0):
         self.name = name
         self.age = age
         self.gender = gender
@@ -22,7 +22,10 @@ class Student:
 
 
 tivadar = Student("El Tivadar", 16, "male")
+leila = Studewnt("Romano alav Leila Kovacs", "female")
 
 tivadar.introduction()
 tivadar.studied(12)
 tivadar.introduction()
+
+leila.introduction()
